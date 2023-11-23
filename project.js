@@ -15,8 +15,16 @@ const projects = [
         completionDate: "December 2023",
         description: "Description for Project...",
         completed: false,
-        description: `This is the final project for the class COS 426: Computer Graphics. Here I am working with 
+        description: `The final project for the class COS 426: Computer Graphics. Here I am working with 
         another student to develop a video game in JavaScript. We intend to make a rendition of Angry Birds using the Three.js library.`
+    },
+    {
+        title: "Princeton Baseball Umpire Scraper",
+        completed:true,
+        completionDate: "November 2023",
+        description: `A Python script which scrapes the <a href="https://stats.ncaa.org/" target="_blank">NCAA Stats</a> website for the umpire assigned to each game, and the location
+        of the game. The script uses the library <a href="https://selenium-python.readthedocs.io/" target="_blank">Selenium</a> to acquire the umpire for each D1 game.
+        The script fits into our larger project of combining our internal Trackman data with the NCAA data to visualize the strike zone of each umpire.`
     },
     {
         title: "Princeton Baseball Team Shiny App",
@@ -25,7 +33,7 @@ const projects = [
         completed:true,
         hasLink: true,
         completionDate: "September 2023",
-        description:`This is an interactive R Shiny app which visualizes game data. The data sources 
+        description:`An interactive R Shiny app which visualizes game data. The data sources 
         are the Princeton Baseball team's Trackman data, and the game data available via the NCAA website. This app allows the coaches to visualize 
         how hitters perform against different pitchers, where pitchers locate their pitches most often and the strike zones of different umpires in the NCAA.`
     },
@@ -36,7 +44,7 @@ const projects = [
         hasLink: true,
         link: "spa_304.html",
         linkText: "Paper",
-        description: `This is my final project for the class SPA 304: Spanish in the Community.
+        description: `My final project for the class SPA 304: Spanish in the Community.
         For this project, I wrote a 6-page research paper in Spanish about the discrimination that Hispanic and Latino players face in the MLB. This spring, I intend to write a 6,000
         word expansion of this paper for completion of the independent work component of my certificate in Spanish Language and Culture at Princeton University.`
     },
@@ -48,7 +56,9 @@ const projects = [
         link: "jr_iw.html",
         linkText: "Paper",
         description: `Junior Spring, I had the opportunity to complete a semester-long independent work project on a topic of my choosing.
-        For my project, I created several Machine Learning Models based on data which I scraped from Fangraphs.`
+        For my project, I created several Machine Learning Models based on data which I scraped from Fangraphs. The Machine Learning models are
+        written in Python primarlily using the Scikit-learn library. There is also a Neural Network model written in PyTorch. The findings and my approach
+        are described in detail in the <a href="jr_iw.hmtl" target="_blank" >write-up.</a>`
     },
     {
         title: "Movie Revenue Prediction Competition",
@@ -66,7 +76,7 @@ const projects = [
         linkText: "Paper",
         completionDate: "December 2022",
         description: `Junior Fall I took the class SML310, a project-based course about Machine Learning models. For the final project,
-        I developed several Machine Learning models to predict the results of NBA games. To acquire the training data, I scraped <a href="https://basketball-reference.com" target="_blank">Basketball Reference</a> for 
+        I developed several Machine Learning models to predict the results of NBA games. The models are written largely in R using the  To acquire the training data, I scraped <a href="https://basketball-reference.com" target="_blank">Basketball Reference</a> for 
         game results and <a href="https://realgm.com" target="_blank">RealGM</a> for player stats. In addition to the models, I wrote a <a href="sml_310.html" target="_blank">paper</a> detailing my process and results.`
     },
     {
