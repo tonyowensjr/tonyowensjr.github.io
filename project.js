@@ -1,6 +1,4 @@
-// Your JavaScript code goes here
 const projects = [
-    // ... Your projects array
     {
         title: "Senior Thesis Project",
         completionDate: "May 2024",
