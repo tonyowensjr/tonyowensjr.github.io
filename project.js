@@ -24,7 +24,7 @@ const projects = [
         completionDate: "November 2023",
         description: `A Python script which scrapes the <a href="https://stats.ncaa.org/" target="_blank">NCAA Stats</a> website for the umpire assigned to each game, and the location
         of the game. The script uses the library <a href="https://selenium-python.readthedocs.io/" target="_blank">Selenium</a> to acquire the umpire for each D1 game.
-        The script fits into our larger project of combining our internal Trackman data with the NCAA data to visualize the strike zone of each umpire.`
+        The script fits into our larger project of combining our internal Trackman data with the NCAA play-by-play data to visualize the strike zone of each umpire.`
     },
     {
         title: "Princeton Baseball Team Shiny App",
