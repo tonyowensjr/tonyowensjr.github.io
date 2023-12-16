@@ -11,10 +11,11 @@ const projects = [
     {
         title: "COS 426 Final Project",
         completionDate: "December 2023",
-        description: "Description for Project...",
-        completed: false,
-        description: `The final project for the class COS 426: Computer Graphics. Here I am working with 
-        another student to develop a video game in JavaScript. We intend to make a rendition of Angry Birds using the Three.js library.`
+        hasLink: true,
+        link: "https://tonyowensjr.github.io/cos_426_final/",
+        linkText: "Game Link",
+        description: `The final project for the class COS 426: Computer Graphics. Here I worked with 
+        another student to develop a video game in JavaScript. The game is a rendition of the popular mobile game Angry Birds. It uses the Three.js library for design and the Cannon.js physics engine.`
     },
     {
         title: "Princeton Baseball Umpire Scraper",
