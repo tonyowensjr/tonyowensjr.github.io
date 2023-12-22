@@ -21,11 +21,12 @@ const projects = [
     {
         title: "COS 316 Final Project",
         completionDate: "December 2023",
-        hasLink: true,
+        hasLink: false,
         completed: true,
         link: "https://github.com/joshkol1/COS316-Final-Project",
         linkText: "Project Code",
-        description: `The final project for the class COS 316: Principles of Computer System Design. For this project, I worked with another student to build an iptables-like simple stateful firewall application in Go.`
+        description: `The final project for the class COS 316: Principles of Computer System Design. For this project, I worked with another student to build an iptables-like simple stateful firewall application in Go. We also 
+        used the Python library scapy to generate packets to test the application, and benchmark its performance.`
     },
     {
         title: "Princeton Baseball Umpire Scraper",
