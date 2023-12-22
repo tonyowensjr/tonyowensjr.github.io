@@ -14,8 +14,18 @@ const projects = [
         hasLink: true,
         link: "https://tonyowensjr.github.io/cos_426_final/",
         linkText: "Game Link",
+        completed: true,
         description: `The final project for the class COS 426: Computer Graphics. Here I worked with 
         another student to develop a video game in JavaScript. The game is a rendition of the popular mobile game Angry Birds. It uses the Three.js library for design and the Cannon.js physics engine.`
+    },
+    {
+        title: "COS 316 Final Project",
+        completionDate: "December 2023",
+        hasLink: true,
+        completed: true,
+        link: "https://github.com/joshkol1/COS316-Final-Project",
+        linkText: "Project Code",
+        description: `The final project for the class COS 316: Principles of Computer System Design. For this project, I worked with another student to build an iptables-like simple stateful firewall application in Go.`
     },
     {
         title: "Princeton Baseball Umpire Scraper",
