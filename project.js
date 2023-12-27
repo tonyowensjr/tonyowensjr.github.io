@@ -9,6 +9,17 @@ const projects = [
         interactive front-end which allows the user to visualize the results of each simulation.`
     },
     {
+        title:"NCAA Baseball Map",
+        completionDate: "May 2024",
+        completed: true,
+        hasLink: true,
+        link: "https://qgiscloud.com/tonyowens/ncaa_baseball_2023/",
+        linkText: "Map",
+        description: `For this project, I used QGIS to create a map of all the NCAA Division 1 baseball teams that took place in 2023. The map includes the location for each game, as well as the date and score.
+        I acquired the data using the <a href="https://billpetti.github.io/baseballr/" target="_blank">baseballr</a> R package, and utilized Python and R to clean the data and prepare it for use in QGIS.`
+        // The source code for the data preparation is available at <a href="https://github.com/tonyowensjr/MLB-Game-Predictor"> this link</a>.`
+    },
+    {
         title: "COS 426 Final Project",
         completionDate: "December 2023",
         hasLink: true,
@@ -99,6 +110,14 @@ const projects = [
         description: `Sophomore year, I participated in the Football Analytics Blitz competition. I worked with a team of 4 other students to analyze a provided data set and
         present our findings to a panel of coaches. For this project, I used SQL to query our data and extract relevant information regarding the Chiefs and their opponents. I also used Python to assist with data 
         cleaning and the visualization of our results.`
+    },
+    {
+        title: "Seam Carving",
+        completed: true,
+        hasLink: false,
+        completionDate: "November 2021",
+        description: `An assignment for the class COS 226: Algorithms and Data Structures. I wrote a content-aware image resizing algorithm in Java. For this project,
+        I implemented several functions which allow the user to resize an image vertically or horizontally, while maintaining the important features of the image.`
     }
 ];
 
