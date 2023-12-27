@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title:"NCAA Baseball Map",
-        completionDate: "May 2024",
+        completionDate: "December 2023",
         completed: true,
         hasLink: true,
         link: "https://qgiscloud.com/tonyowens/ncaa_baseball_2023/",
