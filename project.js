@@ -16,7 +16,8 @@ const projects = [
         link: "https://qgiscloud.com/tonyowens/ncaa_baseball_2023/",
         linkText: "Map",
         description: `For this project, I used QGIS to create a map of all the NCAA Division 1 baseball teams that took place in 2023. The map includes the location for each game, as well as the date and score.
-        I acquired the data using the <a href="https://billpetti.github.io/baseballr/" target="_blank">baseballr</a> R package, and utilized Python and R to clean the data and prepare it for use in QGIS.`
+        I acquired the data using the <a href="https://billpetti.github.io/baseballr/" target="_blank">baseballr</a> R package, and utilized Python and R to clean the data and prepare it for use in QGIS.
+        I used the <a href="https://geopy.readthedocs.io/en/stable/" target="_blank">GeoPy</a> library to geocode the location of each game.`
         // The source code for the data preparation is available at <a href="https://github.com/tonyowensjr/MLB-Game-Predictor"> this link</a>.`
     },
     {
